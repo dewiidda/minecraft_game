@@ -1,7 +1,7 @@
-#Minecraft Game 3D Block-Based World Project Summary
+# Minecraft Game 3D Block-Based World Project Summary
 This project is a basic implementation of a 3D environment built with Python and the Panda3D game engine. The core concept allows users (Hero) to move and interact within a world entirely composed of blocks (similar to Minecraft). The terrain is loaded from simple elevation data (land.txt).
 
-##Main File Roles
+## Main File Roles
 Here are the specific functions of each Python file in this project:
 
 1. game.py
@@ -41,7 +41,7 @@ Here are the specific functions of each Python file in this project:
 
 - Ensure the player stays above block surfaces (doesn't fall through)
 
-##Interaction Summary
+## Interaction Summary
 Through the combination of these three files, the Hero can explore procedurally generated 3D terrain with capabilities for:
 
 - Moving within the 3D environment
@@ -50,7 +50,7 @@ Through the combination of these three files, the Hero can explore procedurally 
 
 - Experiencing basic physics of the virtual world
 
-##Key Features
+## Key Features
 - Dual movement modes: Flying mode and walking mode with collision detection
 
 - First-person perspective with camera controls
@@ -63,7 +63,7 @@ Through the combination of these three files, the Hero can explore procedurally 
 
 - Customizable controls for all game actions
 
-##Technical Architecture
+## Technical Architecture
 The project follows a modular architecture where:
 
 - game.py serves as the main controller
