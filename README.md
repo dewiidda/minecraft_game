@@ -4,7 +4,7 @@ This project is a basic implementation of a 3D environment built with Python and
 ## Main File Roles
 Here are the specific functions of each Python file in this project:
 
-1. game.py
+**1. game.py**
 - This is the brain of the application. Its responsibilities include:
 
 - Initializing Panda3D and the game window
@@ -15,7 +15,7 @@ Here are the specific functions of each Python file in this project:
 
 - Integrating and orchestrating all other components, such as Mapmanager and Hero
 
-2. mapmanager.py
+**2. mapmanager.py**
 - This is the world builder. Its functions are:
 
 - Reading elevation data from land.txt to determine terrain layout
@@ -28,7 +28,7 @@ Here are the specific functions of each Python file in this project:
 
 - Handling block addition or removal
 
-3. hero.py
+**3. hero.py**
 - This defines the player entity. Its responsibilities are:
 
 - Controlling player movement and rotation
@@ -70,6 +70,6 @@ The project follows a modular architecture where:
 
 - mapmanager.py handles all world state and geometry
 
-hero.py manages player state and input handling
+- hero.py manages player state and input handling
 
 This separation of concerns makes the codebase maintainable and extensible for future enhancements.
